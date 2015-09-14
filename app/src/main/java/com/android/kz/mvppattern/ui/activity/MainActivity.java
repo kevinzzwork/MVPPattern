@@ -3,8 +3,6 @@ package com.android.kz.mvppattern.ui.activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.android.kz.mvppattern.R;
@@ -21,7 +19,6 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Bind(R.id.resultTextView) TextView resultTextView;
 
     private MainPresenter presenter;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

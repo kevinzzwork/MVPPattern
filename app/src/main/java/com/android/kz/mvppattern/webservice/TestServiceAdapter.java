@@ -1,16 +1,7 @@
 package com.android.kz.mvppattern.webservice;
 
-import com.google.gson.Gson;
-import com.squareup.okhttp.MediaType;
-import com.squareup.okhttp.RequestBody;
-import com.squareup.okhttp.ResponseBody;
-
-import java.io.IOException;
-
-import retrofit.Converter;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
-import retrofit.RxJavaCallAdapterFactory;
 
 /**
  * User: Kevin
